@@ -10,7 +10,7 @@ def show_in_moved_window(win_name, img, x, y):
     Show an image in a window, where the position of the window can be given
     """
     cv2.namedWindow(win_name)
-    cv2.moveWindow(win_name, x, y)
+    #cv2.moveWindow(win_name, x, y)
     cv2.imshow(win_name, img)
 
 
