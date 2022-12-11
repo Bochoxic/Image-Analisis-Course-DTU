@@ -7,7 +7,7 @@ from skimage import data, filters, measure, morphology, io, color
 
 
 def interactive_blobs():
-    in_dir = "data/"
+    in_dir = "ex5-BLOBAnalysis/data/"
     im_name = "lego_4_small.png"
 
     img_org = io.imread(in_dir + im_name)
